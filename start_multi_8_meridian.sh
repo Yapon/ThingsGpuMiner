@@ -3,6 +3,6 @@ npm install
 
 
 while true; do
-  node send_multigpu_meridian.js --api tonapi --bin ./pow-miner-cuda --givers 1000 --gpu-count 8
+  node send_multigpu_things.js --api tonhub --bin ./pow-miner-cuda --givers 10000 --gpu-count 1
   sleep 1;
 done;
